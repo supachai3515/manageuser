@@ -80,9 +80,9 @@
                                 <div class="checkbox">
                                   <label>
                                     <?php if ($menugroup_data['is_active'] == 1): ?>
-                                      <input type="checkbox"  id="is_active"  name="is_active" value="1" checked="true" readonly> ใช้งาน
+                                      <input type="checkbox"  id="is_active"  name="is_active" value="1" checked="true" disabled="true"> ใช้งาน
                                     <?php else: ?>
-                                      <input type="checkbox"  id="is_active"  name="is_active" value="1" readonly> ใช้งาน
+                                      <input type="checkbox"  id="is_active"  name="is_active" value="1" disabled="true"> ใช้งาน
                                     <?php endif; ?>
                                   </label>
                                 </div>

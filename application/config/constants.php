@@ -44,6 +44,8 @@ define('ROLE_EMPLOYEE',                         '3');
 
 define('SEGMENT',								2);
 
+//set time zone
+date_default_timezone_set("Asia/Bangkok");
 /************************** EMAIL CONSTANTS *****************************/
 
 define('EMAIL_FROM',                            'system@wisadev.com');		// e.g. email@example.com

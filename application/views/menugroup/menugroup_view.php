@@ -62,8 +62,8 @@
                         <?php endif ?>
                     </td>
                     <td class="text-center">
-                        <a class="btn btn-sm btn-warning" href="<?php echo base_url().'menugroup/edit/'.$record->menu_group_id; ?>"><i class="fa fa-pencil" aria-hidden="true"></i></a>
                         <a class="btn btn-sm bg-navy" href="<?php echo base_url().'menugroup/set_menu/'.$record->menu_group_id; ?>"><i class="fa fa-sliders" aria-hidden="true"> Set Menu</i></a>
+                        <a class="btn btn-sm btn-warning" href="<?php echo base_url().'menugroup/edit/'.$record->menu_group_id; ?>"><i class="fa fa-pencil" aria-hidden="true"></i></a>
                         <a class="btn btn-sm btn-info" href="<?php echo base_url().'menugroup/view/'.$record->menu_group_id; ?>"><i class="fa fa-eye" aria-hidden="true"></i></a>
                     </td>
                   </tr>
